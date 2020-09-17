@@ -16,7 +16,7 @@ public class ShopController {
     @Autowired
     ShopServiceImpl shopServiceImpl;
 
-    @GetMapping("/collars")
+    @GetMapping("/shops")
     public List<Shop> all() {
         return shopServiceImpl.listShops();
     }

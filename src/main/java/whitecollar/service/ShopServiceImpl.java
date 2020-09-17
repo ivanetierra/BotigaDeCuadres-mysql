@@ -22,32 +22,5 @@ public class ShopServiceImpl implements whitecollar.service.IShopService {
 	}
 
 
-	/*
-	@Override
-	public Cliente guardarCliente(Cliente cliente) {
-		
-		return iClienteDAO.save(cliente);
-	}
-
-	@Override
-	public Cliente clienteXID(Long id) {
-		
-		return iClienteDAO.findById(id).get();
-	}
-
-	@Override
-	public Cliente actualizarCliente(Cliente cliente) {
-		
-		return iClienteDAO.save(cliente);
-	}
-
-	@Override
-	public void eliminarCliente(Long id) {
-		
-		iClienteDAO.deleteById(id);
-		
-	}
-
-	 */
 
 }
