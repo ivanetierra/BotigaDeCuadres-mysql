@@ -4,9 +4,6 @@ import whitecollar.model.Shop;
 
 import java.util.List;
 
-/**
- * @author Jose
- */
 
 public interface IShopService {
 
