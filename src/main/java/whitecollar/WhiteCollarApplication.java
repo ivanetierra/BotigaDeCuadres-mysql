@@ -4,8 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-
-
 @SpringBootApplication
 public class WhiteCollarApplication {
 
@@ -13,5 +11,4 @@ public class WhiteCollarApplication {
 
         SpringApplication.run(WhiteCollarApplication.class, args);
     }
-
 }
