@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "1eaf1689-70c4-4de6-bf6a-58a1ce365c23",
+		"name": "whitecollar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/collars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/collars",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"collars"
+					]
+				},
+				"description": "show all collars"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops"
+					]
+				},
+				"description": "Show all the shops"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/1/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						""
+					]
+				},
+				"description": "show specific shop by id"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"CHEAP CHEAP\",\r\n        \"maxCapacity\": 200\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						""
+					]
+				},
+				"description": "add a new shop"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/collars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/1/collars",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"collars"
+					]
+				},
+				"description": "get all the collars from a shop (id)"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/collars",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \r\n        \"name\": \"black collar\",\r\n        \"author\": \"Bansky\"\r\n        \r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/1/collars",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"collars"
+					]
+				},
+				"description": "add collar to a shop(id)"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/collars",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/1/collars",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"collars"
+					]
+				},
+				"description": "delete ALL the collars from a shop(id)"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
